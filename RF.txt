@@ -1,0 +1,13 @@
+Predicted  False  True  __all__
+Actual                         
+False          2     6        8
+True           3     9       12
+__all__        5    15       20
+             precision    recall  f1-score   support
+
+   Negative       0.40      0.25      0.31         8
+   Positive       0.60      0.75      0.67        12
+
+avg / total       0.52      0.55      0.52        20
+
+OrderedDict([('population', 20), ('P', 12), ('N', 8), ('PositiveTest', 15), ('NegativeTest', 5), ('TP', 9), ('TN', 2), ('FP', 6), ('FN', 3), ('TPR', 0.75), ('TNR', 0.25), ('PPV', 0.6), ('NPV', 0.4), ('FPR', 0.75), ('FDR', 0.4), ('FNR', 0.25), ('ACC', 0.55), ('F1_score', 0.6666666666666666), ('MCC', 0.0), ('informedness', 0.0), ('markedness', 0.0), ('prevalence', 0.6), ('LRP', 1.0), ('LRN', 1.0), ('DOR', 1.0), ('FOR', 0.6)])
